@@ -1,0 +1,1621 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 3927 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Edson Filho/OneDrive/Documentos/projetos/Jogo de tabuleiro
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51105
+Successfully changed project path to: C:/Users/Edson Filho/OneDrive/Documentos/projetos/Jogo de tabuleiro
+C:/Users/Edson Filho/OneDrive/Documentos/projetos/Jogo de tabuleiro
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 452.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Edson Filho/OneDrive/Documentos/projetos/Jogo de tabuleiro/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics (ID=0x5a85)
+    Vendor:   Intel
+    VRAM:     1963 MB
+    Driver:   26.20.100.6813
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.032509 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 338.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.739 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3742ms)
+		BeginReloadAssembly (467ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (2791ms)
+			LoadAssemblies (459ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (735ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (198ms)
+			SetupLoadedEditorAssemblies (1601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (340ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (972ms)
+				ProcessInitializeOnLoadMethodAttributes (233ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016907 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.168 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8171ms)
+		BeginReloadAssembly (516ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (7117ms)
+			LoadAssemblies (540ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1126ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (280ms)
+			SetupLoadedEditorAssemblies (4941ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (65ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (374ms)
+				ProcessInitializeOnLoadAttributes (4226ms)
+				ProcessInitializeOnLoadMethodAttributes (236ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.38 seconds
+Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3494 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.4 MB). Loaded Objects now: 3942.
+Memory consumption went from 131.0 MB to 129.6 MB.
+Total: 16.488300 ms (FindLiveObjects: 1.559200 ms CreateObjectMapping: 1.197600 ms MarkObjects: 12.681300 ms  DeleteObjects: 1.045800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 231900.086198 seconds.
+  path: Assets/textures
+  artifactKey: Guid(2199a259df76ef34aac6334e5cc03864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures using Guid(2199a259df76ef34aac6334e5cc03864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e86caf6787a188d0257dc52e2a0db8') in 0.088494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 784.049204 seconds.
+  path: Assets/textures/dado1.png
+  artifactKey: Guid(48eef74b48392874f983268feb50c6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/dado1.png using Guid(48eef74b48392874f983268feb50c6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb460a479a81e3d3e7dbba952103c69c') in 0.527266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/textures/dado3.jpg
+  artifactKey: Guid(1aa68658d290ca841b1d8c422e5a6205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/dado3.jpg using Guid(1aa68658d290ca841b1d8c422e5a6205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0fc15f2fe6f3a33926977c83bd59e9') in 0.069122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001479 seconds.
+  path: Assets/textures/dado4.jpg
+  artifactKey: Guid(0f8cef3fe4b987141a03978b5f430fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/dado4.jpg using Guid(0f8cef3fe4b987141a03978b5f430fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1107acf8db9e0d007e0ea49add2bf68c') in 0.059849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021333 seconds.
+  path: Assets/textures/dado5.jpg
+  artifactKey: Guid(165307e54528abb46bf2fb98ad60434e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/dado5.jpg using Guid(165307e54528abb46bf2fb98ad60434e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645a28dbeb64dd9e5630d817adf3323e') in 0.076151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/textures/dado2.jpg
+  artifactKey: Guid(cc52b37bffd9c6c46b28cbfd2654675a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/dado2.jpg using Guid(cc52b37bffd9c6c46b28cbfd2654675a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e13dbe09f897863fd6a00dbb2dd4dd4') in 0.057342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/textures/dado6.jpg
+  artifactKey: Guid(f63ff8e2acf85244881f076543d12a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/dado6.jpg using Guid(f63ff8e2acf85244881f076543d12a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ba6da5fee709c75259be9f1e4fda79') in 0.062004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.458065 seconds.
+  path: Assets/textures/dado1.png
+  artifactKey: Guid(48eef74b48392874f983268feb50c6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/dado1.png using Guid(48eef74b48392874f983268feb50c6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11854e4f9500151e88685f4060cc5b22') in 0.285318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/textures/dado3.jpg
+  artifactKey: Guid(1aa68658d290ca841b1d8c422e5a6205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/dado3.jpg using Guid(1aa68658d290ca841b1d8c422e5a6205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd1469d552832817ccc95c3746fea8d') in 0.070700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/textures/dado4.jpg
+  artifactKey: Guid(0f8cef3fe4b987141a03978b5f430fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/dado4.jpg using Guid(0f8cef3fe4b987141a03978b5f430fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9b2e2a8458106277332b14317dfc62') in 0.093458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003042 seconds.
+  path: Assets/textures/dado5.jpg
+  artifactKey: Guid(165307e54528abb46bf2fb98ad60434e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/dado5.jpg using Guid(165307e54528abb46bf2fb98ad60434e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6090eff476a0efdf6a782c63181a41c9') in 0.075014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/textures/dado2.jpg
+  artifactKey: Guid(cc52b37bffd9c6c46b28cbfd2654675a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/dado2.jpg using Guid(cc52b37bffd9c6c46b28cbfd2654675a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c1cc030b582da0e4a171c6c8444bc9') in 0.072237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/textures/dado6.jpg
+  artifactKey: Guid(f63ff8e2acf85244881f076543d12a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/dado6.jpg using Guid(f63ff8e2acf85244881f076543d12a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1276ae01a38f15df08b24aeb771dad') in 0.074136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.615883 seconds.
+  path: Assets/scripts/player.cs
+  artifactKey: Guid(603dfd158a6e89749aa34c7da03a77dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/player.cs using Guid(603dfd158a6e89749aa34c7da03a77dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64876e761d9eed807e30f274e9281d6') in 0.110466 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.042606 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6651ms)
+		BeginReloadAssembly (829ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (53ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (203ms)
+		EndReloadAssembly (5364ms)
+			LoadAssemblies (698ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1420ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (282ms)
+			SetupLoadedEditorAssemblies (2753ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (111ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (306ms)
+				ProcessInitializeOnLoadAttributes (2102ms)
+				ProcessInitializeOnLoadMethodAttributes (137ms)
+				AfterProcessingInitializeOnLoad (91ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.4 MB). Loaded Objects now: 3952.
+Memory consumption went from 132.5 MB to 131.1 MB.
+Total: 15.701500 ms (FindLiveObjects: 1.303700 ms CreateObjectMapping: 1.190500 ms MarkObjects: 11.965700 ms  DeleteObjects: 1.234000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030779 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.907 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7925ms)
+		BeginReloadAssembly (2394ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (331ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (535ms)
+		EndReloadAssembly (3974ms)
+			LoadAssemblies (516ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1058ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (179ms)
+			SetupLoadedEditorAssemblies (1650ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (311ms)
+				ProcessInitializeOnLoadAttributes (1101ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
+				AfterProcessingInitializeOnLoad (62ms)
+				EditorAssembliesLoaded (7ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (409ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.4 MB). Loaded Objects now: 3955.
+Memory consumption went from 132.5 MB to 131.1 MB.
+Total: 43.161100 ms (FindLiveObjects: 1.281300 ms CreateObjectMapping: 0.905600 ms MarkObjects: 39.817900 ms  DeleteObjects: 1.054100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014711 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.534 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6537ms)
+		BeginReloadAssembly (600ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (5468ms)
+			LoadAssemblies (470ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1789ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (209ms)
+			SetupLoadedEditorAssemblies (2541ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (119ms)
+				SetLoadedEditorAssemblies (46ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (321ms)
+				ProcessInitializeOnLoadAttributes (1817ms)
+				ProcessInitializeOnLoadMethodAttributes (204ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (64ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.4 MB). Loaded Objects now: 3958.
+Memory consumption went from 132.5 MB to 131.1 MB.
+Total: 14.567300 ms (FindLiveObjects: 3.227400 ms CreateObjectMapping: 1.001900 ms MarkObjects: 9.343800 ms  DeleteObjects: 0.987000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016301 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6811ms)
+		BeginReloadAssembly (684ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (5412ms)
+			LoadAssemblies (630ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1514ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (221ms)
+			SetupLoadedEditorAssemblies (2830ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (79ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (830ms)
+				ProcessInitializeOnLoadAttributes (1645ms)
+				ProcessInitializeOnLoadMethodAttributes (215ms)
+				AfterProcessingInitializeOnLoad (52ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.4 MB). Loaded Objects now: 3961.
+Memory consumption went from 132.5 MB to 131.1 MB.
+Total: 15.507400 ms (FindLiveObjects: 1.381000 ms CreateObjectMapping: 1.028800 ms MarkObjects: 12.076500 ms  DeleteObjects: 1.014000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014335 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.247 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6252ms)
+		BeginReloadAssembly (583ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (51ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (5169ms)
+			LoadAssemblies (542ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1601ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (226ms)
+			SetupLoadedEditorAssemblies (2435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (112ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (732ms)
+				ProcessInitializeOnLoadAttributes (1433ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 36.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.4 MB). Loaded Objects now: 3964.
+Memory consumption went from 132.5 MB to 131.1 MB.
+Total: 17.412400 ms (FindLiveObjects: 1.439400 ms CreateObjectMapping: 0.941500 ms MarkObjects: 13.286500 ms  DeleteObjects: 1.739100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015349 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 16.144 seconds
+Domain Reload Profiling:
+	ReloadAssembly (16159ms)
+		BeginReloadAssembly (3406ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (249ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (760ms)
+		EndReloadAssembly (10039ms)
+			LoadAssemblies (2123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3441ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (651ms)
+			SetupLoadedEditorAssemblies (4185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (226ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (795ms)
+				ProcessInitializeOnLoadAttributes (2785ms)
+				ProcessInitializeOnLoadMethodAttributes (278ms)
+				AfterProcessingInitializeOnLoad (95ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (66ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 19.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.4 MB). Loaded Objects now: 3967.
+Memory consumption went from 132.5 MB to 131.1 MB.
+Total: 36.886600 ms (FindLiveObjects: 4.462400 ms CreateObjectMapping: 9.812700 ms MarkObjects: 21.440200 ms  DeleteObjects: 1.166000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028363 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.280 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4283ms)
+		BeginReloadAssembly (540ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (3339ms)
+			LoadAssemblies (418ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1061ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (207ms)
+			SetupLoadedEditorAssemblies (1493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (269ms)
+				ProcessInitializeOnLoadAttributes (1014ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.4 MB). Loaded Objects now: 3970.
+Memory consumption went from 132.5 MB to 131.2 MB.
+Total: 14.869500 ms (FindLiveObjects: 1.628500 ms CreateObjectMapping: 1.265100 ms MarkObjects: 10.949500 ms  DeleteObjects: 1.020400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018456 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.567 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6573ms)
+		BeginReloadAssembly (1579ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (51ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (211ms)
+		EndReloadAssembly (4126ms)
+			LoadAssemblies (586ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1314ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (192ms)
+			SetupLoadedEditorAssemblies (1865ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (86ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (271ms)
+				ProcessInitializeOnLoadAttributes (1328ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.4 MB). Loaded Objects now: 3973.
+Memory consumption went from 132.5 MB to 131.2 MB.
+Total: 13.079300 ms (FindLiveObjects: 1.625200 ms CreateObjectMapping: 1.245900 ms MarkObjects: 9.069700 ms  DeleteObjects: 1.132800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015985 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 21.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (22005ms)
+		BeginReloadAssembly (1600ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (50ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (334ms)
+		EndReloadAssembly (17806ms)
+			LoadAssemblies (1856ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (7724ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (297ms)
+			SetupLoadedEditorAssemblies (6235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (708ms)
+				SetLoadedEditorAssemblies (82ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (1440ms)
+				ProcessInitializeOnLoadAttributes (3720ms)
+				ProcessInitializeOnLoadMethodAttributes (197ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 22.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.4 MB). Loaded Objects now: 3976.
+Memory consumption went from 132.5 MB to 131.2 MB.
+Total: 18.673200 ms (FindLiveObjects: 2.367900 ms CreateObjectMapping: 1.031800 ms MarkObjects: 11.378500 ms  DeleteObjects: 3.887100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016185 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.884 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10887ms)
+		BeginReloadAssembly (1388ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (53ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (310ms)
+		EndReloadAssembly (8341ms)
+			LoadAssemblies (996ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2987ms)
+			ReleaseScriptCaches (25ms)
+			RebuildScriptCaches (660ms)
+			SetupLoadedEditorAssemblies (3349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (175ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (719ms)
+				ProcessInitializeOnLoadAttributes (2276ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.4 MB). Loaded Objects now: 3979.
+Memory consumption went from 132.5 MB to 131.2 MB.
+Total: 13.651300 ms (FindLiveObjects: 1.418400 ms CreateObjectMapping: 0.975300 ms MarkObjects: 10.245000 ms  DeleteObjects: 1.007100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.040931 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.091 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11094ms)
+		BeginReloadAssembly (800ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (197ms)
+		EndReloadAssembly (9547ms)
+			LoadAssemblies (628ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2428ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (307ms)
+			SetupLoadedEditorAssemblies (5948ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (87ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (523ms)
+				ProcessInitializeOnLoadAttributes (1547ms)
+				ProcessInitializeOnLoadMethodAttributes (3754ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3464 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (2.0 MB). Loaded Objects now: 3983.
+Memory consumption went from 133.2 MB to 131.1 MB.
+Total: 29.056400 ms (FindLiveObjects: 1.648700 ms CreateObjectMapping: 1.532900 ms MarkObjects: 14.599400 ms  DeleteObjects: 11.267700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1837.941852 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv10.prefab
+  artifactKey: Guid(227f9257bcc7175478a7f935e3bfc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv10.prefab using Guid(227f9257bcc7175478a7f935e3bfc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a48a58197905cfb25f7ffec49f1887') in 3.077566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/models/halloween_free
+  artifactKey: Guid(8b01b4c5b898dee41b6fe9138bec9e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/halloween_free using Guid(8b01b4c5b898dee41b6fe9138bec9e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cd9ecebedaaed74b6fd0103cabfdfb') in 0.126757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d8e0f007b36c0085804bcbd387885a') in 0.192061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv07.prefab
+  artifactKey: Guid(67c6e02e204ef6244a8f475a94826851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv07.prefab using Guid(67c6e02e204ef6244a8f475a94826851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3185f9b3df90c12cc50070cea8049fe') in 0.172770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv04.prefab
+  artifactKey: Guid(ff31047102e4ad54da5383aa244844cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv04.prefab using Guid(ff31047102e4ad54da5383aa244844cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d78d90c0cebb622e56c892e01bf704e') in 1.458628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv06.prefab
+  artifactKey: Guid(4aa7f4f0acab60742bea9a9f6a3bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv06.prefab using Guid(4aa7f4f0acab60742bea9a9f6a3bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad4a4828c857b4fd72b98a4ef0f860e') in 0.159231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/models/SineVFX/PostProcessingV2
+  artifactKey: Guid(baa2d3d1c14d40e4da5c8a263953d32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/PostProcessingV2 using Guid(baa2d3d1c14d40e4da5c8a263953d32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b073a318564ffa22a90671fc083a785') in 0.061501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001012 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab
+  artifactKey: Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab using Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27f5dca2d6c9043a8185ee086e2561b') in 0.296642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs
+  artifactKey: Guid(57ba1372d1301cc4fb18ae9042873fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs using Guid(57ba1372d1301cc4fb18ae9042873fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab64e6b83457b5e9b6fb03749e668e61') in 0.100721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv05.prefab
+  artifactKey: Guid(ee88617da51e3e8479a812f9d58a94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv05.prefab using Guid(ee88617da51e3e8479a812f9d58a94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc6dbccdb1db4874b85bdc436e95477') in 0.224187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals
+  artifactKey: Guid(0c6b8e5d60d9fa44381a5a682ff8562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals using Guid(0c6b8e5d60d9fa44381a5a682ff8562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d6d68bc28ee13bcc1c78a5888124b7') in 0.041609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/models/SineVFX
+  artifactKey: Guid(1c953f9720f0a87408cf322cd0d6e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX using Guid(1c953f9720f0a87408cf322cd0d6e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab35c34c9a811261706281e17e951b64') in 0.065347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv02.prefab
+  artifactKey: Guid(f035235bfe0fb5d48b6f85818f4f000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv02.prefab using Guid(f035235bfe0fb5d48b6f85818f4f000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372c10c5849afabfd86d97a9984a357f') in 0.225601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv01.prefab
+  artifactKey: Guid(8ad137f6808375f4e885d60451f0c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv01.prefab using Guid(8ad137f6808375f4e885d60451f0c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d8ea952e3c4a0a985bd71af8ddd323') in 0.179915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab
+  artifactKey: Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab using Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b00b4ec5852f3ec8b107cf5e5b96ed') in 0.236213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.740064 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma
+  artifactKey: Guid(0691c4c9bf768674189e0f784d14479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma using Guid(0691c4c9bf768674189e0f784d14479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c212d6955b331bf177a14fbb8135aa') in 0.070662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv10.prefab
+  artifactKey: Guid(a1b4f5aeb08a9ba409b89043963cc60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv10.prefab using Guid(a1b4f5aeb08a9ba409b89043963cc60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79da8bb028cce75342172f4c9cf88320') in 0.160479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv07.prefab
+  artifactKey: Guid(18b2841f7a99a5f42be7e5d161545f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv07.prefab using Guid(18b2841f7a99a5f42be7e5d161545f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b35064393be01eac5fee2168a955011') in 0.196386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv08.prefab
+  artifactKey: Guid(36503447f5372ab4495dd42ec08684df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv08.prefab using Guid(36503447f5372ab4495dd42ec08684df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea01ad5be25410feded67486d771f38e') in 0.142271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv06.prefab
+  artifactKey: Guid(6045f6974b7e51f49981f0307cfc82bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv06.prefab using Guid(6045f6974b7e51f49981f0307cfc82bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499247dfda871d5e65db754ac15b1060') in 0.168805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv02.prefab
+  artifactKey: Guid(1435c36dca02dc841a30bfac19f79aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv02.prefab using Guid(1435c36dca02dc841a30bfac19f79aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2ce44b5ffabc18b7911f60b7a95724') in 0.118593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv01.prefab
+  artifactKey: Guid(cc0fd657b60ef8c499b057056b948f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv01.prefab using Guid(cc0fd657b60ef8c499b057056b948f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cac6cfd079a952221df7e0ffc549b91') in 0.163834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv09.prefab
+  artifactKey: Guid(124fb29879dc61540b6b3c173eeafe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv09.prefab using Guid(124fb29879dc61540b6b3c173eeafe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758f4ce9b979bc85f33fdf81b6de69ed') in 0.126946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv05.prefab
+  artifactKey: Guid(092df013ff76bd7428d419529e5e81cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv05.prefab using Guid(092df013ff76bd7428d419529e5e81cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c091fbbdd1374967449627baa0bfae2') in 0.202751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv04.prefab
+  artifactKey: Guid(83c0a85ae9c29184883b2866a6224b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv04.prefab using Guid(83c0a85ae9c29184883b2866a6224b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382da9f2b220f1849b683d1c1c09fd7a') in 0.164593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv03.prefab
+  artifactKey: Guid(df80741be051bc54c85258e839162dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/SineVFX/TranslucentCrystals/Prefabs/Gamma/Crystalsv03.prefab using Guid(df80741be051bc54c85258e839162dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a64d040a18ac60589e021500577f485') in 0.456510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.951911 seconds.
+  path: Assets/models/halloween_free/prefabs
+  artifactKey: Guid(10185d301467b96478529f77de181695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/halloween_free/prefabs using Guid(10185d301467b96478529f77de181695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c195a4f4a8bd71bfd515b522035e5db5') in 0.066060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/models/halloween_free/prefabs/Pumpkin_Orange_Free_Glowing.prefab
+  artifactKey: Guid(c55b813b19a382b439be7ca1f9f21d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/halloween_free/prefabs/Pumpkin_Orange_Free_Glowing.prefab using Guid(c55b813b19a382b439be7ca1f9f21d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e85fe95ccac5a06344062c89103567') in 0.713298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/models/halloween_free/prefabs/Pumpkin_Orange_Free.prefab
+  artifactKey: Guid(a690d06fe62ac404abde5af50b65a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/halloween_free/prefabs/Pumpkin_Orange_Free.prefab using Guid(a690d06fe62ac404abde5af50b65a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc8b49078b4f162ab69db631c32771d') in 0.136207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 580.560735 seconds.
+  path: Assets/models/Inguz Media Studio
+  artifactKey: Guid(f6ba1ba645a369c4288f39f5d7ec9eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio using Guid(f6ba1ba645a369c4288f39f5d7ec9eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ef396db76ed25b2cc03339fb4e1dc6') in 0.052242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.760567 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS
+  artifactKey: Guid(c2ed46dd678d847c8b70d779a6640777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS using Guid(c2ed46dd678d847c8b70d779a6640777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19034abe99425816f6e32ac9060a9ca8') in 0.055156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.826792 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab
+  artifactKey: Guid(33c56dababc5f40659526f03134f2ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab using Guid(33c56dababc5f40659526f03134f2ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36baeff58bf69d03227b394a4e045bcf') in 0.113108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_E_(2)_Banner_War_E_Flag_A.prefab
+  artifactKey: Guid(a1109c709027244fbb915d87b8a19c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_E_(2)_Banner_War_E_Flag_A.prefab using Guid(a1109c709027244fbb915d87b8a19c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8614b4bec55215227341c95c57ff9828') in 2.901536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_B_(2)_Banner_War_Wood_Flag_A.prefab
+  artifactKey: Guid(5fba7f16a4e8946b5932e7cf9402e29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_B_(2)_Banner_War_Wood_Flag_A.prefab using Guid(5fba7f16a4e8946b5932e7cf9402e29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70f4497381cb9175ffbf6bc83613be0') in 0.397447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_C_(2)_Banner_War_Wood_Alone.prefab
+  artifactKey: Guid(01d349dc78b2f4dde87d6a0d025c24da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_C_(2)_Banner_War_Wood_Alone.prefab using Guid(01d349dc78b2f4dde87d6a0d025c24da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e2667898e113029e98df0e26214afd') in 0.304540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_D_(1)_Banner_War_Alone.prefab
+  artifactKey: Guid(e0b37b90669a24d729ecb3beec2d723c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_D_(1)_Banner_War_Alone.prefab using Guid(e0b37b90669a24d729ecb3beec2d723c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51ee6f122c585664c94798bed00faa1') in 0.165006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Barrels_Mounted.prefab
+  artifactKey: Guid(2e194aa8ebf5c4310a25a1a1333d1ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Barrels_Mounted.prefab using Guid(2e194aa8ebf5c4310a25a1a1333d1ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6fb26b9fa593ce4e5aaa6f7cd59dc8') in 0.257142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_C_(1)_Banner_War_Alone.prefab
+  artifactKey: Guid(57f2e99527d074d1eb6b5447137b06e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_C_(1)_Banner_War_Alone.prefab using Guid(57f2e99527d074d1eb6b5447137b06e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963cc3664b03975195d861d09fa72b20') in 0.319527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_A_(2)_Banner_War_Wood_Alone.prefab
+  artifactKey: Guid(90fafc6e5c9cf452db76343ec3404e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_A_(2)_Banner_War_Wood_Alone.prefab using Guid(90fafc6e5c9cf452db76343ec3404e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8761ad726a24622366a6df4ff62e5e') in 0.155883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_C_(2)_Banner_War_Wood_Flag_A.prefab
+  artifactKey: Guid(dd916107cca874bdc883a3c715e23da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_C_(2)_Banner_War_Wood_Flag_A.prefab using Guid(dd916107cca874bdc883a3c715e23da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143a967a583240c35652fe021ffdfac8') in 0.314595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_A_Small_Fire.prefab
+  artifactKey: Guid(5120c0b529bdd489e955a6f8f3d28426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_A_Small_Fire.prefab using Guid(5120c0b529bdd489e955a6f8f3d28426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e75ebd0cc2b78042f08540a1bba0d4') in 1.273462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_D_(2)_Banner_War_Alone.prefab
+  artifactKey: Guid(71487675247bc4c66badc6ba039a9d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_D_(2)_Banner_War_Alone.prefab using Guid(71487675247bc4c66badc6ba039a9d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270823099ccb1232cd42e6bc4af2d3be') in 0.101267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Barrel_Alone.prefab
+  artifactKey: Guid(6ac5329b57f29464193d937cd106fc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Barrel_Alone.prefab using Guid(6ac5329b57f29464193d937cd106fc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc4b07e94bdd6ac02dcf97c7a3008e0') in 0.129369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_A_(1)_Banner_War_Alone.prefab
+  artifactKey: Guid(32170d0b155a741b88ac034c00943ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_A_(1)_Banner_War_Alone.prefab using Guid(32170d0b155a741b88ac034c00943ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227b2b105ae88f40711db1823116e6b8') in 0.112692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_B_(1)_Banner_War_Flag_A.prefab
+  artifactKey: Guid(7b10818c5d5ab48098b2fb54bf1dbb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_B_(1)_Banner_War_Flag_A.prefab using Guid(7b10818c5d5ab48098b2fb54bf1dbb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d48497467f5bd1c74e38269d80af4b5') in 0.177784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008149 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_B_(1)_Banner_War_Alone.prefab
+  artifactKey: Guid(1717adaeec15241ae9106b1f75467c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_B_(1)_Banner_War_Alone.prefab using Guid(1717adaeec15241ae9106b1f75467c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ef7024f4141ca374390015c145794b') in 0.365223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Farol_Light_ON.prefab
+  artifactKey: Guid(7518149b929dd405e8f6224fd017de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Farol_Light_ON.prefab using Guid(7518149b929dd405e8f6224fd017de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367dead811b8542736df4d7fccbfd992') in 0.119371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Firewood_A.prefab
+  artifactKey: Guid(3a9b7854188d4405280e2aee6b228fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Firewood_A.prefab using Guid(3a9b7854188d4405280e2aee6b228fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d2d106027c90f0bd70d5cf0d74b71b') in 0.126669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Fire_Small_FX.prefab
+  artifactKey: Guid(1ccaecc0d7c334429b161837dada6bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Fire_Small_FX.prefab using Guid(1ccaecc0d7c334429b161837dada6bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a530cae152b06adf0e0837b2ecf9ea99') in 0.395997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Firewood_C.prefab
+  artifactKey: Guid(8465c36704a3545e5a0bd5d43f85682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Firewood_C.prefab using Guid(8465c36704a3545e5a0bd5d43f85682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afe8c29e7e616d34c854a376326ff3b') in 0.456389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Rock_B.prefab
+  artifactKey: Guid(58363587a2b6e4ee7b0ec99bd270f264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Rock_B.prefab using Guid(58363587a2b6e4ee7b0ec99bd270f264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f82ac6a79fd0084af5025298e5a35ec') in 0.151925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Metal_Wall_With_Pillars.prefab
+  artifactKey: Guid(ea83a5d2daeb54283a6a210529165d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Metal_Wall_With_Pillars.prefab using Guid(ea83a5d2daeb54283a6a210529165d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669b536ebabf2f2c94ccb59a1169d1fa') in 0.107630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Metal_Wall_Pillar.prefab
+  artifactKey: Guid(a32e878db3d224e8cb028603b63d891a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Metal_Wall_Pillar.prefab using Guid(a32e878db3d224e8cb028603b63d891a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf258773f2d0807327542bc5d7a193d') in 0.097339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Stake_B.prefab
+  artifactKey: Guid(c239531b6fbd54ebd8ad8cf73dbde4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Stake_B.prefab using Guid(c239531b6fbd54ebd8ad8cf73dbde4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712c302bb802d56b906095f18ec7f49d') in 0.167931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Sunnylight.prefab
+  artifactKey: Guid(4343974fdcfc0cc49a66508cd0c799fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Sunnylight.prefab using Guid(4343974fdcfc0cc49a66508cd0c799fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89421b63945ea4c00d896d4ff5a733e') in 0.256948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_C_Big_Fire.prefab
+  artifactKey: Guid(8126aaaf537b441af847b947a9ca4d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_C_Big_Fire.prefab using Guid(8126aaaf537b441af847b947a9ca4d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d73be83653310fa3c003ecfa48a1a45') in 0.244502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Table_Wall.prefab
+  artifactKey: Guid(0ef02a9e40f5e4fa7b74fb487cfd465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Table_Wall.prefab using Guid(0ef02a9e40f5e4fa7b74fb487cfd465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6ab508a736c77d296f06176a11764e') in 0.706126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Thorn_Curve_01.prefab
+  artifactKey: Guid(b3ca94229dd174bca99cf1be8603ff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Thorn_Curve_01.prefab using Guid(b3ca94229dd174bca99cf1be8603ff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc5467678da96c9f01d99c7a65feca8') in 0.121944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_D_to_Cook.prefab
+  artifactKey: Guid(2e083ce79624a4fe09eb5cef9aed79ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_D_to_Cook.prefab using Guid(2e083ce79624a4fe09eb5cef9aed79ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f7c32bbcacb1520680a8035a75513f') in 0.217381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_B_Small_Fire.prefab
+  artifactKey: Guid(8c24f4efc20ae488386410c07ba7ec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_B_Small_Fire.prefab using Guid(8c24f4efc20ae488386410c07ba7ec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c293d7c68a34445c6a82d06db3b197') in 0.140542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Metal_Wall_Base_and_Grid.prefab
+  artifactKey: Guid(4737e431b3b76429eab7b443065c9441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Metal_Wall_Base_and_Grid.prefab using Guid(4737e431b3b76429eab7b443065c9441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd987a43c213aac61dcfac477e69ea6') in 0.088371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Barrel_Throwed.prefab
+  artifactKey: Guid(89635a58f7b1e49ffb76d0b3dcdb401a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Barrel_Throwed.prefab using Guid(89635a58f7b1e49ffb76d0b3dcdb401a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f643501039e627074f1a1e7836e8f0') in 0.089163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Thorn_03.prefab
+  artifactKey: Guid(c5d25093fecc4486c9a11587754c874d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Thorn_03.prefab using Guid(c5d25093fecc4486c9a11587754c874d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac704e6b0b9f83a4144d3b9de1f22bb3') in 0.084481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_D_(2)_Banner_War_Wood_Flag_B.prefab
+  artifactKey: Guid(dd2046904ab0d45d79e85dbb6d41f19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_D_(2)_Banner_War_Wood_Flag_B.prefab using Guid(dd2046904ab0d45d79e85dbb6d41f19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8387d602b60fbed2445bb5b2fb929e7') in 0.123588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_E_(1)_Banner_War_E_Alone.prefab
+  artifactKey: Guid(5bfc9a6943379481b96020a520b8d5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_E_(1)_Banner_War_E_Alone.prefab using Guid(5bfc9a6943379481b96020a520b8d5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d1770d17cabb166698fc34e27d4318') in 0.088799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bush_Green.prefab
+  artifactKey: Guid(32d717cd853d1477d9266852595f6bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bush_Green.prefab using Guid(32d717cd853d1477d9266852595f6bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e985043aa753da0b5fe799417a6b54a') in 1.587383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_D_(1)_Banner_War_Flag_B.prefab
+  artifactKey: Guid(86ef33c5dfea945689f2e5fc2ce818c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_D_(1)_Banner_War_Flag_B.prefab using Guid(86ef33c5dfea945689f2e5fc2ce818c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3de9305474ddaaea83c842e2abfc7cf') in 0.180732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Firewood_B.prefab
+  artifactKey: Guid(dbee1b045b6764160a91237fbee4a59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Firewood_B.prefab using Guid(dbee1b045b6764160a91237fbee4a59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbd3a6398fa158c041e339e7d2d2c6f') in 0.096959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Rock_A.prefab
+  artifactKey: Guid(6f3482d1ecbd14e92a3759687c8adee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Rock_A.prefab using Guid(6f3482d1ecbd14e92a3759687c8adee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6eff5f5c492a4a58a251b589c9b4349') in 0.094129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Rock_C.prefab
+  artifactKey: Guid(dbb10ca490d364e2e8c2c62ea0f928c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Rock_C.prefab using Guid(dbb10ca490d364e2e8c2c62ea0f928c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3582ae41d5673d82525a399c23e91a3f') in 0.083202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_B_Big_Fire.prefab
+  artifactKey: Guid(b4e05b86688c5493db1dc78b2b6f3839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_B_Big_Fire.prefab using Guid(b4e05b86688c5493db1dc78b2b6f3839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9c0fbf3688379b25f34e3661baeef3') in 0.146426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Flag_Style_A.prefab
+  artifactKey: Guid(ba94203b2e8594f02ba99fb53505469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Flag_Style_A.prefab using Guid(ba94203b2e8594f02ba99fb53505469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4ad500590b010d08f655866ee70a39') in 0.107146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Medieval_Well.prefab
+  artifactKey: Guid(73b96e083ff1343898747eb86f8c5739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Medieval_Well.prefab using Guid(73b96e083ff1343898747eb86f8c5739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58a378dab12da489749db6f24d02d39') in 0.087445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004729 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Thorn_02.prefab
+  artifactKey: Guid(317fa5bee84ee4272b1f164f09855275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Thorn_02.prefab using Guid(317fa5bee84ee4272b1f164f09855275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49010f3930a2ce0f3219cb494f817c5d') in 0.139538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Thorn_01.prefab
+  artifactKey: Guid(b52720f21f5694606bd76bce7647b00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Thorn_01.prefab using Guid(b52720f21f5694606bd76bce7647b00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ce00cce6ae8ff3323f31ce31aa72e7') in 0.517027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Wall with Stakes.prefab
+  artifactKey: Guid(2b6987c9317a848c6b3a85b9bbf8afc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Wall with Stakes.prefab using Guid(2b6987c9317a848c6b3a85b9bbf8afc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8131fe702abdba685618713d9ab7e89') in 0.138692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Tree_Old.prefab
+  artifactKey: Guid(08afda74bea724bb495dd1963cd43114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Tree_Old.prefab using Guid(08afda74bea724bb495dd1963cd43114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0624a4e9fa55e4562f82bfda24412eab') in 0.093268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Tree_Little_Falling_One.prefab
+  artifactKey: Guid(69ab566a0e872416ab46459a6f263a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Tree_Little_Falling_One.prefab using Guid(69ab566a0e872416ab46459a6f263a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b819f82b5578d8f9b5934b17e689887') in 0.237115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Thorn_Group_02.prefab
+  artifactKey: Guid(a686628cb22874182b3bd44b0aa559b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Thorn_Group_02.prefab using Guid(a686628cb22874182b3bd44b0aa559b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0cd2897114dcb470e59336272da1b92') in 0.083798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Tree_Little_Green_One.prefab
+  artifactKey: Guid(f58ee8cf085514b5f9b2e7c1dd26d62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Tree_Little_Green_One.prefab using Guid(f58ee8cf085514b5f9b2e7c1dd26d62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f357803baee3569927851757c8b1ac') in 0.105676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Metal_Wall_Right_Pillar.prefab
+  artifactKey: Guid(0bdb7f5c19acd4cc88f01d7557a1947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Metal_Wall_Right_Pillar.prefab using Guid(0bdb7f5c19acd4cc88f01d7557a1947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5ca35fae3c3c9722a3466ac2276bdd') in 0.099706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bush_Falling.prefab
+  artifactKey: Guid(4fe9005d9a73f4e00b78859bdfc2e918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bush_Falling.prefab using Guid(4fe9005d9a73f4e00b78859bdfc2e918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf8f6c5ba904c21a092542084732d4c') in 0.112823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Farol_Light_OFF.prefab
+  artifactKey: Guid(714e02936cce24ea6b1b24d2c4c3e623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Farol_Light_OFF.prefab using Guid(714e02936cce24ea6b1b24d2c4c3e623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4eb06a1aad900f208ba47307a5c03a') in 0.263073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Stake_A.prefab
+  artifactKey: Guid(fa112b1d166774679a87fca9880fecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Stake_A.prefab using Guid(fa112b1d166774679a87fca9880fecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b6091524f4c8a0717a9c69779f01b6') in 0.192724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Metal_Wall_Left_Pillar.prefab
+  artifactKey: Guid(d78b690efefa14bdc859bcf353bf8319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Metal_Wall_Left_Pillar.prefab using Guid(d78b690efefa14bdc859bcf353bf8319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122c13ce61bb4844cd29a8466e9abe48') in 0.145354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Table_Wall_Right_Pillar.prefab
+  artifactKey: Guid(01453fed9df5241819f62074cde7f8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Table_Wall_Right_Pillar.prefab using Guid(01453fed9df5241819f62074cde7f8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2624bcb114fa44ca527a324e5588d68c') in 0.113849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_E_(2)_Banner_War_E_Alone.prefab
+  artifactKey: Guid(4b835c549df9c427ba75e540d65ee775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_E_(2)_Banner_War_E_Alone.prefab using Guid(4b835c549df9c427ba75e540d65ee775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc931767413928588cec0fecfe98a8dc') in 0.265101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000763 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Fire_Big_FX.prefab
+  artifactKey: Guid(adb8d0acfdec64c3fab86a8ec1fb132f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Fire_Big_FX.prefab using Guid(adb8d0acfdec64c3fab86a8ec1fb132f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3dc6b820ec2d69b5acf60ca13e8c07') in 0.103097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Medieval_Cook .prefab
+  artifactKey: Guid(e794c7e0ecaac48cc822b755638fd4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Medieval_Cook .prefab using Guid(e794c7e0ecaac48cc822b755638fd4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f187ab25ae226d06f199f522c805574') in 0.104315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001398 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_A_Big_Fire.prefab
+  artifactKey: Guid(0370bcf47e9f8492cad0d19470ca3996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_A_Big_Fire.prefab using Guid(0370bcf47e9f8492cad0d19470ca3996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba622e5eb3895bab2e7a8512d1aa2e82') in 0.160040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_A_(1)_Banner_War_Flag_A.prefab
+  artifactKey: Guid(8063d4bc07a8d44fb8ae380057cf27c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_A_(1)_Banner_War_Flag_A.prefab using Guid(8063d4bc07a8d44fb8ae380057cf27c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb8d1a01aef43cf0de78a5d6b4dfac2') in 0.252220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Flag_Style_B.prefab
+  artifactKey: Guid(29e9f9b8f7167487a80e5e2008e5a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Flag_Style_B.prefab using Guid(29e9f9b8f7167487a80e5e2008e5a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d883ca391003f507772bb1247c2b53') in 0.192013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Rock_Wall.prefab
+  artifactKey: Guid(74f1e8b0d3a51422ca762da3f9187ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Rock_Wall.prefab using Guid(74f1e8b0d3a51422ca762da3f9187ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be12ff434dd8d0867e4d3529009ace13') in 0.243479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Table_Wall_With_Pillars.prefab
+  artifactKey: Guid(8c33c68f2877941ed8b5fd0af3d2aa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Table_Wall_With_Pillars.prefab using Guid(8c33c68f2877941ed8b5fd0af3d2aa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6582bef86cfbb64233a9061d4250ae') in 0.119766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012368 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Table_Wall_Left_Pillar.prefab
+  artifactKey: Guid(e418be8ea8ce946288316ef3b4c71973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Table_Wall_Left_Pillar.prefab using Guid(e418be8ea8ce946288316ef3b4c71973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca7ef24f35bf1eda8c9070cd0da60d5') in 0.110956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Thorn_Group_01.prefab
+  artifactKey: Guid(1846b5fcf6bf345f99cdc42b660298f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Thorn_Group_01.prefab using Guid(1846b5fcf6bf345f99cdc42b660298f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3050f019a55e1798450fd1b0f4bad5') in 0.169345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_E_(1)_Banner_War_E_Flag_A.prefab
+  artifactKey: Guid(2ed0f8800c17749c19ab3252a6961dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_E_(1)_Banner_War_E_Flag_A.prefab using Guid(2ed0f8800c17749c19ab3252a6961dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4aa87e36e0c0d6065423b6ccbdced49') in 0.125082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_A_(2)_Banner_War_Wood_Flag_A.prefab
+  artifactKey: Guid(df98d49cad8fc4f7eb97a173332f86a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_A_(2)_Banner_War_Wood_Flag_A.prefab using Guid(df98d49cad8fc4f7eb97a173332f86a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc205fce4d5f5fb5b00a92f785db1b5b') in 0.287422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Table_Wall_Pillar.prefab
+  artifactKey: Guid(3b4b3c93d232f495b8e73e50190a8ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Table_Wall_Pillar.prefab using Guid(3b4b3c93d232f495b8e73e50190a8ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79c6b41ae63b051f3b1550a521b3ce9') in 0.118377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_B_(2)_Banner_War_Wood_Alone.prefab
+  artifactKey: Guid(e9fe1567327e249c29596862f91c6bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_B_(2)_Banner_War_Wood_Alone.prefab using Guid(e9fe1567327e249c29596862f91c6bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a0a6020f63551a7426c8f212458ad1') in 0.181133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_C_(1)_Banner_War_Flag_A.prefab
+  artifactKey: Guid(33acee08aadae4c34bc9f71ff5a6da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_C_(1)_Banner_War_Flag_A.prefab using Guid(33acee08aadae4c34bc9f71ff5a6da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0c9f033d6c66a9202e987b1d093b53') in 0.225220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_C_Small_Fire.prefab
+  artifactKey: Guid(bacc70b09c9614d89b194c1335f0f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_C_Small_Fire.prefab using Guid(bacc70b09c9614d89b194c1335f0f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d053e3fcaef22a977b6f07c383d00db') in 0.185390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.669318 seconds.
+  path: Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Bridge_Element_1.prefab
+  artifactKey: Guid(4070279820fd8cf45abb350380694c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Bridge_Element_1.prefab using Guid(4070279820fd8cf45abb350380694c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d737eef976aa2fb67c73a0f0cfd8c4') in 0.266012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Stone Pillars Element 5.prefab
+  artifactKey: Guid(704b4d82cd5c2d743b532e151cfbdd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Stone Pillars Element 5.prefab using Guid(704b4d82cd5c2d743b532e151cfbdd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675749d0831798be929cd86fadd2bd29') in 0.154513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Flagpole Black.prefab
+  artifactKey: Guid(0bc4bf91a3a9b19409613bea5318e33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Flagpole Black.prefab using Guid(0bc4bf91a3a9b19409613bea5318e33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85426e97a2ac9e7cb482d3dfcd73e6da') in 0.186073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Stone Pillars Element 11.prefab
+  artifactKey: Guid(0e70a9941e0b4ec438e3f06fc4facd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Stone Pillars Element 11.prefab using Guid(0e70a9941e0b4ec438e3f06fc4facd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037a1b2639b2f6e00b3910d7988ecbb5') in 0.083958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Chess Battlefield 2.prefab
+  artifactKey: Guid(c364da1e00b6a954c9da291cba0e718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Chess Battlefield 2.prefab using Guid(c364da1e00b6a954c9da291cba0e718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe18f57eb15e58756e06dfa889452608') in 0.223842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Flagpole White.prefab
+  artifactKey: Guid(0bd9b4747be9a8d45a0bc55057116f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Flagpole White.prefab using Guid(0bd9b4747be9a8d45a0bc55057116f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8931ee1776abe355574d4668a8e98e64') in 0.131786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Stone Pillars Element 9.prefab
+  artifactKey: Guid(a5df68ea43042e749af4ea6592a504ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Stone Pillars Element 9.prefab using Guid(a5df68ea43042e749af4ea6592a504ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd78ddce05d3d0c315883b3aaa8e3cc4') in 0.090215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment
+  artifactKey: Guid(e94d379f108f62e4a8f92fd862d24972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment using Guid(e94d379f108f62e4a8f92fd862d24972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64765d88dd2224d2043dba8fb3219706') in 0.028366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Stone Pillars Element 8.prefab
+  artifactKey: Guid(e13fab2df4718384091479d9973186d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Stone Pillars Element 8.prefab using Guid(e13fab2df4718384091479d9973186d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0b45cbdfbb3a00ecd3517daebe16a1') in 0.091051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000756 seconds.
+  path: Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Stone Pillars Element 6.prefab
+  artifactKey: Guid(b1b305a0406a3a94092c20063bfd9b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Stone Pillars Element 6.prefab using Guid(b1b305a0406a3a94092c20063bfd9b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dde84aa0ac31607f1e6e68ec78712c') in 0.110279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Stone Pillars Element 16.prefab
+  artifactKey: Guid(4de21084b9012c1449507cca2e233fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tiny Chess Stone Chess Piece/Prefabs/Environment/Stone Pillars Element 16.prefab using Guid(4de21084b9012c1449507cca2e233fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368d55a0e7dc5ea58b4fc67f91e5847c') in 0.124465 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024289 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Edson Filho\OneDrive\Documentos\projetos\Jogo de tabuleiro\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.013 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11017ms)
+		BeginReloadAssembly (2181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (127ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (16ms)
+			CreateAndSetChildDomain (511ms)
+		EndReloadAssembly (7387ms)
+			LoadAssemblies (1416ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3132ms)
+			ReleaseScriptCaches (22ms)
+			RebuildScriptCaches (491ms)
+			SetupLoadedEditorAssemblies (2412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (78ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (561ms)
+				ProcessInitializeOnLoadAttributes (1550ms)
+				ProcessInitializeOnLoadMethodAttributes (171ms)
+				AfterProcessingInitializeOnLoad (45ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3463 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.4 MB). Loaded Objects now: 3996.
+Memory consumption went from 146.9 MB to 145.5 MB.
+Total: 37.513500 ms (FindLiveObjects: 1.606500 ms CreateObjectMapping: 1.123000 ms MarkObjects: 32.738200 ms  DeleteObjects: 2.039700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
