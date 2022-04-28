@@ -3,7 +3,14 @@ guid: 603dfd158a6e89749aa34c7da03a77dc
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - m_Image: {instanceID: 0}
+  - dice1: {fileID: 21300000, guid: 48eef74b48392874f983268feb50c6c3, type: 3}
+  - dice2: {fileID: 21300000, guid: cc52b37bffd9c6c46b28cbfd2654675a, type: 3}
+  - dice3: {fileID: 21300000, guid: 1aa68658d290ca841b1d8c422e5a6205, type: 3}
+  - dice4: {fileID: 21300000, guid: 0f8cef3fe4b987141a03978b5f430fef, type: 3}
+  - dice5: {fileID: 21300000, guid: 165307e54528abb46bf2fb98ad60434e, type: 3}
+  - dice6: {fileID: 21300000, guid: f63ff8e2acf85244881f076543d12a8e, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
