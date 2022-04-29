@@ -3,31 +3,70 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class jogo : MonoBehaviour
 {
     private int randomQuestion;
     private int fase;
-    private int contador;
+    private float contador;
+    private bool timerIsRunning = false;
     public TMP_Text faseText;
+    // public Text scoreText;
+    // private int scoreMG1;
     public Text pergunta;
     public Text contadorText;
     public Button botaoCorreto;
     public Button botaoFalso1;
     public Button botaoFalso2;
     public Button botaoFalso3;
-    public TMP_Text txtBtnCorreto;
-    public TMP_Text txtBtnFalse1;
-    public TMP_Text txtBtnFalse2;
-    public TMP_Text txtBtnFalse3;
+    private TMP_Text txtBtnCorreto;
+    private TMP_Text txtBtnFalse1;
+    private TMP_Text txtBtnFalse2;
+    private TMP_Text txtBtnFalse3;
 
     void Awake() {
         randomQuestion = Random.Range(1,10);
         fase = 1;
-        contador = 20;
+        // scoreMG1 = player.score;
+        contador = 5f;
+        timerIsRunning = true;
+        txtBtnCorreto = botaoCorreto.GetComponentInChildren<TMP_Text>();
+        txtBtnFalse1 = botaoFalso1.GetComponentInChildren<TMP_Text>();
+        txtBtnFalse2 = botaoFalso2.GetComponentInChildren<TMP_Text>();
+        txtBtnFalse3 = botaoFalso3.GetComponentInChildren<TMP_Text>();
     }
 
     void Start() {
+        RandomQuestionAndAnswer();
+
+        botaoCorreto.onClick.AddListener(AcertouResposta);
+        botaoFalso1.onClick.AddListener(ErrouResposta);
+        botaoFalso2.onClick.AddListener(ErrouResposta);
+        botaoFalso3.onClick.AddListener(ErrouResposta);
+    }
+    void Update() {
+        // scoreText.text = $"score:{scoreMG1}";
+        faseText.text = $"{fase}/3";   
+        // temporizador();
+        if(fase == 4){
+            SceneManager.LoadScene("SampleScene");
+        }
+        
+    }
+    void AcertouResposta(){
+        fase += 1;
+        Reiniciar();
+    }
+
+    void ErrouResposta(){
+        Reiniciar();
+        RandomQuestionAndAnswer();
+    }
+
+    void RandomQuestionAndAnswer(){
+        randomQuestion = Random.Range(1,10);
+
         switch (randomQuestion){
             case 1:
                 pergunta.text = "X + 7 = 14";
@@ -102,18 +141,27 @@ public class jogo : MonoBehaviour
         }
     }
 
-    void Update() {
-        faseText.text = $"{fase}/3";   
-        contadorText.text = $"{contador}"; 
-        StartCoroutine(temporizador());
-
-        if(contador == 0){
-            Debug.Log("Terminou");
+    void temporizador(){
+        float minutes = Mathf.FloorToInt(contador / 60);  
+        float seconds = Mathf.FloorToInt(contador % 60); 
+        contadorText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        if (timerIsRunning)
+        {
+            if (contador > 0)
+            {
+                contador -= Time.deltaTime;
+            }
+            else
+            {
+                contador = 0;
+                timerIsRunning = false;
+                ErrouResposta();
+            }
         }
     }
 
-    IEnumerator temporizador(){
-        yield return new WaitForSeconds(1f);
-        contador -= 1;
+    void Reiniciar(){
+        contador = 5f;
+        timerIsRunning = true;
     }
 }

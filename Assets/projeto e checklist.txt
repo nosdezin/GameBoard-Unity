@@ -1,0 +1,26 @@
+Objetivo: Criar um jogo de tabuleiro e depois implementar o sistema de multijogador
+
+Minigames:
+1-Jogo de Pesca;
+2-Jogo de Mátematica;
+3-Jogo de tiro onde as balas recocheteiam e o Objetivo é acertar um lugar especifico;
+4-Jogo de tetris onde já tem peças colocadas só falta o jogador colocar as peças num tempo limitado;
+
+--CHECKLIST--
+-Mapa Principal:
+=[X]Criar o mapa do jogo de tabuleiro;
+=[X]Criar o sistema de Dado e a aleatoriedade dele;
+=[X]Criar sistema onde o jogador anda e a casa atual é somada com o dado;
+=[]Criar o sistema de Score;
+=[]Criar o sistema que quando o jogador atinge uma certa quantidade de pontos e chega no final, ele
+ganha;
+-Minigame 1:
+=[X]Criar cénario do Minigame 1;
+=[X]Criar Todos os Textos e Botões;
+=[X]Criar todas as perguntas e respostas;
+=[+/-]Criar Todos os Eventos que vão acontecer se você aperta uma resposta;
+=[X]Criar cronomêtro;
+=[]Criar um score que é ligado ao score do jogador;
+-Minigame 2:
+=[]Criar cénario;
+=[]

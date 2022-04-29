@@ -9,7 +9,7 @@ public class player : MonoBehaviour
     private int blocoAtual;
     private bool isPlaying;
     private bool PontoRecebido;
-    private int score;
+    public int score;
     public TMP_Text winnerText;
     public TMP_Text scoreText;
     public Image m_Image;
@@ -27,7 +27,7 @@ public class player : MonoBehaviour
         m_Image.enabled = false;
         winnerText.enabled = false;
         Cursor.visible = false;
-        score = 0;
+        score = 5;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
